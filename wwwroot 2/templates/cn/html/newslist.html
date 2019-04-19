@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<title>{aspcms:sorttitle}-{aspcms:sitetitle}- </title>
+<meta name="Keywords" content="{aspcms:sortkeyword}" >
+<meta name="Description" content="{aspcms:sortdesc}" >
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<LINK media=screen href="/pic/style.css" type=text/css rel=stylesheet>
+</HEAD>
+
+<BODY>
+    {aspcms:top}
+	
+	
+	<div class="main">
+  <div class="aboutleft">
+   
+   
+{aspcms:template src=left.html}
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+    </div>
+   <!--  ×ó±ß½áÊø -->
+  
+     <!--  ÓÒ±ß¿ªÊ¼ -->
+	 
+    <div class="aboutright">
+	 
+	<div class="titleright"  >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{aspcms:sorttitle}</div>
+
+<div class="aboutnr">
+
+
+
+<table width="95%" border="0" align="center" cellpadding="10" cellspacing="0" style="margin-top:10px;">
+                {aspcms:list size=15 order=order}
+                <tr>
+        <td  style="border-bottom:dotted 1px #ccc;"><a title="[navlist:name]" href="[navlist:link]">>></a> <a href="[list:link]">[list:title]</a></td>
+                  <td align="right"  style="border-bottom:dotted 1px #ccc;">[list:date style=yy-m-d]</td>
+                </tr>
+                {/aspcms:list}
+  <tr>
+    <td height="40" colspan="2" align="right"><DIV class=wp-pagenavi>[list:pagenumber len=5]</DIV></td>
+  </tr>
+      </table>
+
+
+
+
+
+
+</div>
+	 
+	 
+	 
+	 
+	 
+	 
+	  </div>
+  
+  
+  </div>
+	
+	
+	
+	
+	
+	
+{aspcms:foot}
+</BODY>
+</HTML>

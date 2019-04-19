@@ -1,0 +1,281 @@
+body{
+	font-size:12px;
+	color:#3e3c3d;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif, "ËÎÌו";
+	background-color: #ffffff;
+}.ksdx{
+color:#ffffff !important;line-height:12px;
+}.ksdx a{color:#ffffff !important;}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+a{ color:#000; text-decoration:none;}
+a:hover{ text-decoration:underline; color:#000}
+li{
+	margin: 0px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.meun a{
+	font-size:14px;
+	font-weight:bolder;
+	height:auto;
+	color:#fff;
+	line-height:37px;
+	display:block;
+	text-align:center;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+.meun {
+	background-image: url(/pic/index_05.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 41px;
+	width: 513px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.meun ul {
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 37px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+
+
+.meun li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+
+.meun a:hover{
+	text-decoration:none;
+	
+	color:#fff;
+	background-image: url(/pic/index_08.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.proclass li{ line-height:28px; height:28px; float:left; width:110px;}
+
+
+.foot{
+	padding-top: 5px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 24px;
+	background-color: #d1d2d4;
+	height: 79px;
+	font-family: "ËÎÌו";
+	color: #575657;
+}
+.foot a{
+	color: #575657;
+}
+
+.content{ line-height:25px;  padding:10px; padding:0; margin:0;}
+.content p{ text-indent:2em}
+
+.notice{line-height:25px; }
+.notice p{ text-indent:2em; margin:0; padding:0}
+
+.prolist{ margin-top:15px;}
+.prolist li{ float:left; width:210px; text-align:center; line-height:40px;}
+.prolist li a img{padding:3px;border:solid 1px #ccc;background-color:#FFFFFF}
+
+
+.wp-pagenavi a{ margin-left:10px; margin-right:10px;}
+.wp-pagenavi span{ margin-right:10px;}
+
+.promeun li{
+	width:260px;
+	height:40px;
+	line-height:40px;
+	float:left;
+	list-style-type: none;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url(/pic/dh.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+.main {
+	width: 1102px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: auto;
+}
+.shoye li {
+	float: left;
+	height: 193px;
+}
+
+.flash {
+	border: 1px solid #CCCCCC;
+}
+
+
+
+.tianchong {
+	padding: 10px;
+}
+
+
+
+.main .left {
+	height: 220px;
+	width: 288px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.main .left .tianchong li {
+	font-size: 12px;
+	line-height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+
+.main .gongsijj .tianchong img {
+	float: left;
+	padding: 1px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border: 1px solid #CCCCCC;
+}
+
+.main .gongsijj {
+	display: inline;
+	padding: 0px;
+	float: left;
+	width: 447px;
+	margin-left: 10px;
+	border: 1px solid #CCCCCC;
+	height: 220px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+
+
+.main .right {
+	float: right;
+	border: 1px solid #CCCCCC;
+	height: 220px;
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "ËÎÌו";
+}
+.gexian {
+	clear: both;
+	height: 15px;
+}
+
+
+.chanpin {
+	width: 998px;
+	border: 1px solid #CCCCCC;
+	height: 180px;
+}
+.aboutleft {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 336px;
+}
+.aboutchanpin {
+	width: 334px;
+	border: 1px solid #CCCCCC;
+	height: auto;
+}
+.main .aboutright {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: auto;
+	width: 750px;
+	border: 1px solid #CCCCCC;
+}
+.aboutchanpin .tianchong ul {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.aboutchanpin .tianchong li {
+	font-size: 12px;
+	line-height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.aboutchanpin .tianchong a {
+	font-size: 12px;
+	line-height: 30px;
+	display: block;
+	height: 30px;
+	width: 220px;
+	color: #333333;
+}
+
+
+.aboutchanpin .titleleft {
+	background-image: url(/pic/about2.jpg);
+	background-repeat: no-repeat;
+	height: 34px;
+	width: 334px;
+	font-size: 14px;
+	line-height: 33px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.main .aboutright .titleright {
+	background-image: url(/pic/about1.jpg);
+	background-repeat: no-repeat;
+	height: 34px;
+	width: 750px;
+	font-size: 14px;
+	line-height: 33px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.main .aboutright .aboutnr {
+	
+	height:auto;
+	min-height:432px;
+	width: 100%;
+	overflow: visible;
+
+	
+	
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<title>{aspcms:sorttitle}-{aspcms:sitetitle}-</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sitedesc}" >
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.3790.4807" name=GENERATOR>
+<LINK href="/favicon.ico" rel="shortcut icon">
+<LINK media=screen href="/pic/style.css" type=text/css rel=stylesheet>
+</HEAD>
+
+<BODY>
+  {aspcms:top}
+  
+  
+  
+  <div class="main">
+  <div class="aboutleft">
+  
+  {aspcms:template src=left2.html}
+  </div>
+   <!--  左边结束 -->
+  
+     <!--  右边开始 -->
+	 
+    <div class="aboutright">
+	 
+	<div class="titleright"  >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{aspcms:sorttitle}</div>
+
+<div class="aboutnr">
+
+
+
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+            <tr>
+              <td><div class="prolist">{aspcms:list size=9 order=order}
+                  <li><a href="[list:link]" title="[list:title]" ><img  src="[list:pic]"  alt="[list:title]" width="160" height="120" border="0"  title="[list:title len=9]"/><br>
+                  [list:title]</a></li>
+                {/aspcms:list}</div></td>
+            </tr>
+            <tr>
+              <td height="40" align="right" style="border-top:solid 1px #ccc;"><DIV class=wp-pagenavi>[list:pagenumber len=5]</DIV></td>
+            </tr>
+      </table>
+
+
+
+
+
+
+</div>
+	 
+	 
+	 
+	 
+	 
+	 
+    </div>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+{aspcms:foot}
+</BODY>
+</HTML>
